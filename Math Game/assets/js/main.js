@@ -19,6 +19,9 @@ runGame("addition");
 })
 
 function runGame(gameType) {
+    
+    
+    document.getElementById("answer-box").value = "";
     let num1 = Math.floor(Math.random()* 25) + 1;
     let num2 = Math.floor(Math.random()* 25) + 1;
 
